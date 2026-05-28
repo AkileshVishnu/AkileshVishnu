@@ -1,0 +1,66 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="650" y1="70" x2="895" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE28A"/>
+      <stop offset="1" stop-color="#DFAF45"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="360" rx="18" fill="url(#bg)"/>
+  <g opacity="0.25">
+    <path d="M78 80C150 42 220 45 306 90C395 136 450 136 538 96C626 56 696 52 778 90C860 128 934 134 1025 92C1116 50 1210 42 1320 87" stroke="#2C9EDB" stroke-width="2"/>
+    <path d="M90 285C188 240 294 238 390 278C486 318 585 317 682 272C779 227 870 230 960 278C1050 326 1172 324 1305 268" stroke="#1D6FA6" stroke-width="2"/>
+    <circle cx="150" cy="92" r="4" fill="#4FC3F7"/>
+    <circle cx="536" cy="96" r="4" fill="#4FC3F7"/>
+    <circle cx="965" cy="278" r="4" fill="#4FC3F7"/>
+    <circle cx="1205" cy="50" r="4" fill="#4FC3F7"/>
+  </g>
+
+  <g transform="translate(90 82)">
+    <rect x="0" y="0" width="310" height="200" rx="26" fill="#0F1C2D" stroke="#1D6FA6" stroke-width="2"/>
+    <rect x="34" y="38" width="245" height="22" rx="8" fill="#162A42"/>
+    <rect x="34" y="78" width="50" height="82" rx="8" fill="#2C9EDB"/>
+    <rect x="100" y="104" width="50" height="56" rx="8" fill="#4FC3F7"/>
+    <rect x="166" y="64" width="50" height="96" rx="8" fill="#64B5F6"/>
+    <rect x="232" y="91" width="47" height="69" rx="8" fill="#90CAF9"/>
+    <path d="M37 174C86 142 118 151 154 128C198 99 230 102 278 72" stroke="#FFE28A" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+    <text x="36" y="188" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#D9EAF7">DATA · AI · IMPACT</text>
+  </g>
+
+  <g transform="translate(472 55)">
+    <text x="0" y="70" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" fill="#FFFFFF" letter-spacing="4">I am </text>
+    <text x="260" y="70" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="800" fill="url(#gold)" letter-spacing="2">AK</text>
+    <line x1="8" y1="102" x2="418" y2="102" stroke="#1D6FA6" stroke-width="3"/>
+    <circle cx="214" cy="102" r="7" fill="#4FC3F7"/>
+    <text x="0" y="150" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#E6EDF3">Data Engineering × Artificial Intelligence</text>
+    <text x="0" y="194" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#B9D8EA">Research foundations → Real implementations → Business impact</text>
+
+    <g transform="translate(0 240)" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#D9EAF7">
+      <rect x="0" y="-28" width="166" height="42" rx="21" fill="#0F1C2D" stroke="#1D6FA6"/>
+      <text x="22" y="0">#Ak-DE Series</text>
+      <rect x="186" y="-28" width="162" height="42" rx="21" fill="#0F1C2D" stroke="#1D6FA6"/>
+      <text x="210" y="0">#Ak-AI Series</text>
+      <rect x="368" y="-28" width="162" height="42" rx="21" fill="#0F1C2D" stroke="#1D6FA6"/>
+      <text x="392" y="0">#Ak-DA Series</text>
+    </g>
+  </g>
+
+  <g transform="translate(1160 76)">
+    <circle cx="95" cy="95" r="92" fill="#F7F9FB" stroke="#2C9EDB" stroke-width="5"/>
+    <circle cx="95" cy="95" r="78" fill="#EAF3FA"/>
+    <text x="95" y="118" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800" fill="#10223A">AK</text>
+    <text x="95" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1D6FA6">BUILDER</text>
+  </g>
+</svg>
