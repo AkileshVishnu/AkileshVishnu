@@ -40,12 +40,10 @@ This means every project is designed to answer five questions:
 
 ## My Content Series
 
-| Series | Focus | What to Expect |
-|---|---|---|
-| `#Ak-DE` | Data Engineering | Architecture patterns, pipelines, warehouses, orchestration, dbt, Snowflake, data quality, observability |
-| `#Ak-AI` | Artificial Intelligence | LLMs, RAG, agents, embeddings, AI engineering, research-to-code implementations |
-| `#Ak-DA` | Data Analytics | Metrics, semantic layers, dashboards, KPI design, business reporting, decision intelligence |
-| `#Ak-ML` | Machine Learning | Feature engineering, model workflows, evaluation, ML system design, applied use cases |
+| Series | Focus |
+|---|---|
+| `#Ak-DE` | Data Engineering |
+| `#Ak-AI` | Artificial Intelligence |
 
 ---
 
