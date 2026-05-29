@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/ak-banner.png" alt="Akilesh Vishnu - Data Engineering and AI" width="100%" />
+  <img src="https://raw.githubusercontent.com/AkileshVishnu/AkileshVishnu/main/assets/ak-banner.png" alt="Akilesh Vishnu - Data Engineering and AI" width="100%" />
 </p>
 
 <h1 align="center">Hi, I'm Akilesh Vishnu 👋</h1>
